@@ -1,4 +1,4 @@
-import { AuthDto } from './../auth/dto/auth.dto';
+import { AuthDto } from './dto/auth.dto';
 import { Body, Controller, HttpCode, HttpStatus, Post } from '@nestjs/common';
 import { AuthService } from './auth.service';
 
